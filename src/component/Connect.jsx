@@ -12,6 +12,7 @@ const Connect = () => {
         ws.onopen = () => {
             setIsConnect(true);
             console.log('connect to server');
+            alert('서버 연결 성공');
         }
 
         ws.onclose = () => {
@@ -19,7 +20,9 @@ const Connect = () => {
         };
 
         ws.onerror = (err) => {
-            console.log(err);
+            console.error(err);
+            alert('서버 연결 실패');
+
         }
 
         setSocket(ws);

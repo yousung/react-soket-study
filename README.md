@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# react socket client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 설치
 
-## Available Scripts
+```shell
+npm install
+npm run start
+```
 
-In the project directory, you can run:
+### 사용방법
 
-### `npm start`
+1. 최초 호스트를 작성하는 화면이 나온다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   <img width="238" alt="스크린샷 2024-06-27 오후 10 02 05" src="https://github.com/yousung/react-soket-study/assets/22886880/8ecb3ac5-30c2-4dce-8b37-b05a3770c6ca">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. 최초 소켓 서버 host를 작성한다 ex) ws://localhost:8080 이면 localhost:8080만 적음
 
-### `npm test`
+   <img width="216" alt="스크린샷 2024-06-27 오후 10 02 11" src="https://github.com/yousung/react-soket-study/assets/22886880/129ca699-6703-47e0-9129-ba92cde2e9b3">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. 서버에 연결되면, message 입력창으로 바뀌고 테스트를 시작한다.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    <img width="282" alt="스크린샷 2024-06-27 오후 10 02 14" src="https://github.com/yousung/react-soket-study/assets/22886880/a17430f5-8ed0-4298-a438-4df7d6c3629a">
